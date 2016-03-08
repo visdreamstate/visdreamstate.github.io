@@ -70,20 +70,20 @@
       <p>Ask me anything.</p>
     </div>
   </div>
-  <form class="form-horizontal" role="form" method="post" action="mailer.php">
+  <form class="form-horizontal" role="form" action="//flipmail.co/api/HILqVuDp5Lv0D0rAHkiF" method="post">
     <div class="form-group">
       <div class="col-sm-8 col-sm-offset-2">
-        <input type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name"></div>
+        <input type="text" class="form-control" id="inputName" name="name" placeholder="Your Name"></div>
         
     </div>
     <div class="form-group">
       <div class="col-sm-8 col-sm-offset-2">
-        <input type="text" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email"></div>
+        <input type="email" class="form-control" id="inputEmail" name="email" placeholder="Your Email"></div>
         
     </div>
     <div class="form-group">
       <div class="col-sm-8 col-sm-offset-2">
-        <textarea class="form-control" rows="9" id="inputMessage" name="inputMessage" placeholder="Your message..."></textarea>
+        <textarea class="form-control" rows="9" id="inputMessage" name="message" placeholder="Your message..."></textarea>
         
       </div>
     </div>
@@ -97,6 +97,7 @@
       </div>
     </div>
   </form>
+  <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {}"></iframe>
 </div>
 <!-- /container -->
 
