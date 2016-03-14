@@ -180,24 +180,30 @@ body {
             FOOTER
 ========================================================= */
 footer {
+  font-family: Menlo, sans-serif;
   display: block;
   margin: 0 auto;
   line-height: 24px;
   text-align: center;
-  background: #000; }
+  background: #333; }
 
 footer small {
   text-transform: uppercase;
-  color: #fff;
+  color: #000;
   font-size: 0.6em;
-  padding: 40px 0;
+  padding: 0 0;
   display: block; }
 
+.text-med {
+  font-size: 12px;
+  color: #969696 !important;
+}
 body {
   font-size: 15px; }
 
 @media (min-width: 768px) {
-  font-size: 16px; }
+  body {
+    font-size: 16px; } }
 
 @media (min-width: 1024px) {
   body {
