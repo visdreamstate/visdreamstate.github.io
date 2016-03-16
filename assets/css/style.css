@@ -83,7 +83,7 @@ body {
     margin-bottom: 1em; }
   .page h1, .page h2, .page h3, .page h4, .page h5, .page h6 {
     font-weight: bold; }
-  .page h2 {
+  .page h1 {
     font-size: 2em; }
   .page h3 {
     font-size: 1.125em;
@@ -286,7 +286,7 @@ body {
   position: relative;
   overflow: hidden; }
 
-.about h2 {
+.about h1 {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 500; }
 
@@ -320,7 +320,7 @@ body {
       background-position: center top;
       background-size: cover;
       background-repeat: no-repeat; }
-  #bio h2 {
+  #bio h1 {
     font-size: 2.4em;
     text-transform: none;
     color: #222;
@@ -330,7 +330,7 @@ body {
     text-align: left;
     margin: 0 0 0.5em 0;
     max-width: 5.75em; }
-    #bio h2 span {
+    #bio h1 span {
       color: #fff;
       /*Highlight color*/
       background-color: #86B954; }
@@ -339,7 +339,7 @@ body {
     border-bottom: 3px solid #86B954; }
 
 @media (min-width: 400px) {
-  #bio h2 {
+  #bio h1 {
     font-size: 3.75em; } }
 
 @media (min-width: 768px) {
