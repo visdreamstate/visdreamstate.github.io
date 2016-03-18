@@ -112,11 +112,27 @@ body {
 #work{
   background: #333;
   height: auto;
-  margin-top: -30px;
+  margin-top: 0px;
   text-align: center;
-  padding: 60px 0 60px 0;
+  padding: 60px 60px 60px 60px;
   font-size: 26px;
   line-height: 40px;
+}
+
+#work h2{
+  position: relative;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 50;
+  display: block;
+  padding: 20px;
+  color: #fff;
+}
+
+#work h2 span {
+  color: #fff;
+  /*Highlight color*/
+  border-bottom: 3px solid #86B954;
+  
 }
 
 #work a{
@@ -129,7 +145,7 @@ body {
 
 .portfolio-thumb {
   width: 45%;
-  margin: 10px;
+  margin: 0px;
   background-color: white;
 }
 
@@ -146,7 +162,7 @@ body {
 }
 
 .portfolio-big {
-  width: 95%;
+  width: 100%;
 }
 
 /* =========================================================
