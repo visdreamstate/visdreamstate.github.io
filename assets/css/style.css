@@ -66,8 +66,8 @@ body {
 
 .page {
   color: #444;
-  font-family: Menlo, sans-serif;
-  font-weight: 300; }
+  font-family: Avenir Next, sans-serif;
+  font-weight: 400; }
   .page p {
     font-size: 1em;
     margin-bottom: 1.5em;
@@ -196,7 +196,7 @@ body {
             FOOTER
 ========================================================= */
 footer {
-  font-family: Menlo, sans-serif;
+  font-family: Avenir Next, sans-serif;
   display: block;
   margin: 0 auto;
   line-height: 24px;
@@ -374,9 +374,9 @@ body {
         top: 0.75em;
         bottom: 0.75em;
         left: 0.75em;
-        right: 0.75em;
+        right: 0em;
         background-image: url("me.jpg");
-        background-size: cover; }
+        background-size: 800px 1000px; }
     #bio .intro {
       padding: 0 2em;
       margin: 10em 0 0 auto;
@@ -388,7 +388,7 @@ body {
 
 @media (min-width: 900px) {
   #bio .portrait {
-    padding-bottom: 80%; } }
+    padding-bottom: 55%; } }
 
 @media (min-width: 1024px) {
   #bio h2 {
