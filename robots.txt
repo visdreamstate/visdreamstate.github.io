@@ -1,1 +1,2 @@
-The personal website of Lam Pham
+User-agent: *
+Allow: /
