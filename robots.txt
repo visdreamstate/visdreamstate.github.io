@@ -1,2 +1,3 @@
 User-agent: *
-disallow: /
+Disallow:
+Sitemap: http://lampham.co/sitemap.xml
